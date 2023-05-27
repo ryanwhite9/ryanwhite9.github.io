@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Ryan C. White</title>
+    <link rel="stylesheet" type="text/css" href="./CSS/Portfolio.css">
+</head>
+
+<!--BODY-->
+<body class="background">
+    <!--NAVBAR-->
+    <div class="navbar">
+        <a class="active" href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#github">GitHub</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+    <br>
+    <br>
+
+    <!-- BACKGROUND VIDEO -->
+    <div id="home">
+        <video autoplay muted loop id="typing_video">
+            <source src="./IMG/pexels-carlos-arribas-946146-1920x1080-30fps.mp4" type="video/mp4">
+            <!-- message incase video fails -->
+            Your browser does not support HTML5 video.
+        </video>
+    </div>
+
+    <!-- TEXT OVER VIDEO -->
+    <div class="video_text">
+        <h1 class="white-text">Ryan White</h1>
+        <strong>
+            <p class="center">
+                <q>Perfection is achieved not when there is nothing more to add,
+                    but rather when there is nothing more to take away.
+                </q>
+                <br> - Antoine de Saint-Exupery
+                <br>
+                <br> My name is Ryan White. Welcome to my portfolio website.
+                On it, I will tell you about my background and experience.
+                <br>
+                <br> Thank you for stopping by and enjoy!
+            </p>
+        </strong>
+    </div>
+
+    <!-- ABOUT SECTION -->
+    <div class="Row" id="about">
+        <!-- LEFT COLUMN -->
+        <div class="column_2">
+            <img src="./IMG/pexels-andrew-neel-2312369.jpg" alt="Computer on Desk">
+        </div>
+        <!--RIGHT COLUMN-->
+        <div class="column_1">
+            <h1>About Me</h1>
+            <p>
+                I am a Software Engineer and CyberSecurity Engineer. In my free time i like
+                to make small games and apps, keep my personal devices and network safe/secure, and 
+                spend time with my family! (two roudy huskies and a beautiful wife)
+            </p>
+            <br>
+            <br>I am a graduate of <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy</a>'s
+            CyberSecurity Boot Camp, and trained and experienced in the following web and programming languages: HTML, CSS, Javascript
+            , SQL, C#, Python and more.
+            <br>
+            <br>I am a cybersecurity engineer and would love to work with you. <a href="#contact">Contact</a> me below!
+        </div>
+    </div>
+
+    <!--GITHUB SECTION-->
+    <div class="Row" id="github">
+        <!--LEFT COLUMN-->
+        <div class="column_1">
+            <h1>GitHub</h1>
+            <p class="center">
+                you can view my coding projects on my GitHub profile here:
+                <br>
+                <p class="center"><a href="https://github.com/ryanwhite9" target="_blank">Ryan's GitHub</a></p>
+            </p>
+        </div>
+        <!--RIGHT COLUMN-->
+        <div class="column_2">
+            <a href="https://github.com/ryanwhite9" target="_blank"><img src="./IMG/464-4644573_github-logo-png-github-transparent-png.png" alt="GitHub Logo"></a>
+        </div>
+    </div>
+
+    <!--CONTACT SECTION-->
+    <div class="Row" id="contact">
+        <!--CONTACT IMAGE, LEFT COLUMN-->
+        <div class="column_2 column_tall">
+            <img src="./IMG/depositphotos_75162105-stock-photo-contact-me.jpg" alt="contact_us">
+        </div>
+        <!--CONTACT FORM, RIGHT COLUMN-->
+        <div class="column_1 column_tall">
+            <h1>Contact</h1>
+            <form action="https://formspree.io/f/mqkooyjp" method="POST">
+                <label>Name:</label>
+                    <input type="text" placeholder="Please enter your name here">
+
+                <label>Email:</label>
+                    <input type="text" id="email" name="Email" placeholder="Please enter your email here">
+
+                <label>Message:</label>
+                    <input type="text" id="message" name="Message" placeholder="Please write your message here">
+                    
+                    <input type="submit" value="SUBMIT">
+            </form>
+        </div>
+    </div>
+
+    <!--FOOTER SECTION-->
